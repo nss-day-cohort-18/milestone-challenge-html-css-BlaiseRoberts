@@ -1,0 +1,67 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.rows {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+img {
+	max-width: 25em;
+	max-height: 25em;
+}
+#art1 {
+	background-color: #8ED4AA;
+	padding: 1em;
+	color:#5e3e78;
+}
+#art2 {
+	background-color: #AE73DF;
+	color: #fff;
+	padding-left: .5em;
+	flex-wrap: nowrap;
+}
+#coming {
+	background-color: #FFCEDF;
+	padding: 1em;
+	color: #8ED4AA;
+}
+#soon {
+	padding: 1em;
+	color: #FFCEDF;
+}
+footer {
+	background-color: #ABCEFA;
+	text-align: center;
+	padding: 1em;
+}
+
+
+
+
+
+h1 {
+	font-family: 'Fascinate', cursive;
+	font-size: 6em;
+	text-shadow: .05em .05em #d9d9d9;
+}
+h3 {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 2em;
+}
+h4 {
+	font-family: 'Frijole', cursive;
+	font-size: 5em;
+}
+p, a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+}
