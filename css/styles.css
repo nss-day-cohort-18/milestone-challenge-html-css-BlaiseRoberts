@@ -1,21 +1,25 @@
 .container {
 	display: flex;
 	flex-direction: column;
+	margin: 0;
 }
 .rows {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: flex-start;
 }
 img {
+	height: 40%;
+	width: 40%;
 	max-width: 25em;
 	max-height: 25em;
 }
 #art1 {
 	background-color: #8ED4AA;
-	padding: 1em;
+	padding: .5em;
 	color:#5e3e78;
+	padding-bottom: 0;
 }
 #art2 {
 	background-color: #AE73DF;
@@ -44,8 +48,10 @@ footer {
 
 h1 {
 	font-family: 'Fascinate', cursive;
-	font-size: 6em;
+	font-size: 5.5em;
 	text-shadow: .05em .05em #d9d9d9;
+	margin-bottom: 0;
+	text-align: right;
 }
 h3 {
 	font-family: 'Rubik Mono One', sans-serif;
